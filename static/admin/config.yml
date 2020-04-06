@@ -8,7 +8,7 @@ site_url: "https://johnkiel.com"
 collections:
   - name: "blog"
     label: "Blog"
-    folder: "_posts/"
+    folder: "content/posts/"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
