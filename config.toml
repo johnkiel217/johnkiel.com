@@ -31,4 +31,4 @@ theme = "coder"
 [[menu.main]]    
     name = "Posts"
     weight = 2
-    url  = "_posts/"
+    url  = "/posts/"
