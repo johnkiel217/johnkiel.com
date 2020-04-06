@@ -28,3 +28,7 @@ theme = "coder"
     name = "Contact"
     weight = 1
     url  = "contact/"
+[[menu.main]]    
+    name = "Posts"
+    weight = 2
+    url  = "_posts/"

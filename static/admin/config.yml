@@ -4,10 +4,11 @@ backend:
 
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
+site_url: "https://johnkiel.com"
 collections:
   - name: "blog"
     label: "Blog"
-    folder: "static/posts/"
+    folder: "_posts/"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
