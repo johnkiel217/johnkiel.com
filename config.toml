@@ -1,0 +1,30 @@
+baseURL = "https://johnkiel.com"
+languageCode = "en-us"
+title = "John Kiel"
+theme = "coder"
+
+[params]
+    author = "John Kiel"
+    info = "Network Engineer"
+    description = "John Kiel's Personal Website"
+    keywords = "network,engineer,personal"
+    avatarurl = "images/avatar.png"
+    favicon_32 = "images/favicon-32x32.png"
+    hidecredits = true
+    canonifyurls = true
+    since = 2020
+    colorscheme = "dark"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter fa-2x"
+    weight = 3
+    url = "https://twitter.com/johnkiel17/"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin"
+    weight = 1
+    url = "https://www.linkedin.com/in/jakiel"
+[[menu.main]]
+    name = "Contact"
+    weight = 1
+    url  = "contact/"
